@@ -1,0 +1,58 @@
+body{
+    display:flex;
+    font-family: sans-serif;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    height:100vh;
+    margin:0;
+    background:url("https://images.unsplash.com/photo-1422493757035-1e5e03968f95?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8ODJ8fG5hdHVyZXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60");
+     background-repeat: no-repeat; 
+    background-position: center;
+    background-size:cover; 
+    overflow:hidden;
+   }
+   h2{
+    color:white;
+    letter-spacing: 4px;
+    font-size:14px;
+    text-align:center;
+
+   }
+     #digital_clock{
+        display:flex;
+     }
+     #digital_clock div{
+        margin:10px;
+        position:relative;
+     }
+     #digital_clock span{
+        width:100px;
+        height:80px;
+        background-color:blueviolet;
+        justify-content:center;
+        align-items:center;
+        display:flex;
+        opacity:.8;
+        color:white;
+        font-size:50px;
+        text-shadow:2px 2px 4px rgba(0, 0, 0, 0.3);
+    }
+    #digital_clock .text{
+        font-size:10px;
+        height:30px;
+        text-transform: uppercase;
+        letter-spacing:2px;
+        background-color: darkblue;
+        opacity:.8;
+
+    }
+    #digital_clock #ampm{
+       width: 60px !important;
+        height: 30px !important;
+        font-size:10px;
+        position:absolute;
+        bottom:0;
+        background-color:purple;
+    }
+    
