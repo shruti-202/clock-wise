@@ -5,12 +5,12 @@ ClockWise is a digital clock that continuously updates in real-time on a web pag
 - Constantly updates to display the current time.
 - The displayed information includes hours, minutes, seconds, and whether it is “AM” or “PM”.
 
-### Live Link:
-https://shruti-202.github.io/clock-wise/
-
 ## Built with:
 - HTML
 - CSS
 - JavaScript
+
+### Live Link:
+https://shruti-202.github.io/clock-wise/
 
 
